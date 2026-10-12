@@ -1,0 +1,23 @@
+site_name: Documentação
+site_url: https://dominiodogithub.com/radar-literario/
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      accent: deep orange
+
+extra_css:
+  - stylesheets/extra.css
